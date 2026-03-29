@@ -3,6 +3,8 @@ import { motion } from 'motion/react';
 import { ArrowRight } from 'lucide-react';
 
 export default function Hero() {
+  const heroPortraitSrc = `${import.meta.env.BASE_URL}hxz.jpg`;
+
   return (
     <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 relative z-10 text-center">
@@ -24,7 +26,7 @@ export default function Hero() {
             >
               <div className="w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-white/10 glass p-1 group-hover:border-primary/50 transition-colors">
                 <img 
-                  src="/hxz.jpg" 
+                  src={heroPortraitSrc} 
                   alt="Karl He" 
                   className="w-full h-full object-cover object-[center_22%] rounded-full opacity-90 group-hover:opacity-100 transition-opacity"
                 />
