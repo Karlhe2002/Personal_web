@@ -37,7 +37,7 @@ export default function Contact() {
               <div className="flex gap-4">
                 {[
                   { icon: Github, href: "https://github.com/Karlhe2002" },
-                  { icon: Linkedin, href: "https://linkedin.com" },
+                  { icon: Linkedin, href: "https://www.linkedin.com/in/xunzhi-he/" },
                 ].map((social, i) => (
                   <a
                     key={i}

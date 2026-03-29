@@ -59,7 +59,7 @@ export default function Navbar() {
             <a href="https://github.com/Karlhe2002" target="_blank" rel="noreferrer" className="text-white/50 hover:text-white transition-colors">
               <Github size={18} />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="text-white/50 hover:text-white transition-colors">
+            <a href="https://www.linkedin.com/in/xunzhi-he/" target="_blank" rel="noreferrer" className="text-white/50 hover:text-white transition-colors">
               <Linkedin size={18} />
             </a>
           </motion.div>
