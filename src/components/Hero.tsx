@@ -24,10 +24,9 @@ export default function Hero() {
             >
               <div className="w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-white/10 glass p-1 group-hover:border-primary/50 transition-colors">
                 <img 
-                  src="https://picsum.photos/seed/karl/800/800" 
+                  src="/hxz.jpg" 
                   alt="Karl He" 
-                  className="w-full h-full object-cover rounded-full opacity-90 group-hover:opacity-100 transition-opacity"
-                  referrerPolicy="no-referrer"
+                  className="w-full h-full object-cover object-[center_22%] rounded-full opacity-90 group-hover:opacity-100 transition-opacity"
                 />
               </div>
               <div className="absolute -inset-1 bg-gradient-to-tr from-primary to-secondary rounded-full blur opacity-20 group-hover:opacity-40 transition-opacity -z-10" />
